@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "TripsansMono"; /* Nama bebas */
+  src: url("/src/assets/fonts/TripSansMono-Regular.ttf") format("truetype"); /* Lokasi font */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tripsans"; /* Nama bebas */
+  src: url("/src/assets/fonts/TripSans-Regular.ttf") format("truetype"); /* Lokasi font */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "LoraBold"; /* Nama bebas */
+  src: url("/src/assets/fonts/Lora-Bold.ttf") format("truetype"); /* Lokasi font */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "RoslinDale"; /* Nama bebas */
+  src: url("/src/assets/fonts/RoslinDale-TexBold-Testing.ttf") format("truetype"); /* Lokasi font */
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Tripsans", Arial, sans-serif;
+  background-color: #e4e4e0;
+  /* overflow: hidden; */
+  /* color: #ffffff; */
+}
+.custom-text {
+  font-family: "TripsansMono", sans-serif;
+}
+.loading-text {
+  font-family: "LoraBold", sans-serif;
+}
